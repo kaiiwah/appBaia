@@ -1,8 +1,9 @@
 <template>
-  <div class="text-h6">{{ historia.titulo2 }}</div>
+
+  <div class="text-h6">{{ historia.titulo3 }}</div>
     <div class="text-h7">
-      <p v-for = "texto2 in historia.texto2" v-bind:key="texto2">
-        {{ texto2 }}
+      <p v-for = "texto3 in historia.texto3" v-bind:key="texto3">
+        {{ texto3 }}
       </p>
   </div>
 </template>
